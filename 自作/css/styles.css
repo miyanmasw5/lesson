@@ -1,0 +1,440 @@
+div {
+    box-sizing: border-box;
+}
+
+h3 {
+    color: red;
+}
+h4 {
+    font-family: serif;
+}
+h5 {
+    font-size: 64px;
+    margin: 0px;
+}
+h6 {
+    font-family: Meiryo;
+    font-size: 20px;
+    color: blue;
+}
+img {
+height: auto;
+width: 300px;    
+}
+.img2 {
+    height: auto;
+    width: 200px;
+}
+.none {
+list-style: none;    
+/* padding-left: 0; */
+}
+
+.green {
+    color: #68b300;PLUS GATE LESSON
+}
+.perple {
+    color:#bb01cc;
+}
+
+.world {
+    font-size: 2.5rem;
+    background-color: #e0d666;
+    width: 500px;
+    height: 100px;
+    margin: 0 0 8px;
+}
+
+.world-img {
+    height: 230px;
+    width: 300px;
+}
+
+.kimetu {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    color: #978B00;
+}
+
+.kimetu2 {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #1FCf0F;
+    font-size: 2rem;
+}
+
+.header {
+    height: 60px;
+    background-color: gainsboro;
+}
+
+.header2 {
+    display:flex;
+    height: 60px;
+    background-color: gainsboro;
+    margin: 16px 0;
+}
+
+.header-logo {
+    line-height: 60px;
+    float: left;
+    font-size: 1.6rem;
+    margin: 0 1rem;
+}
+.header-logo2 {
+    line-height: 60px;
+    font-size: 1.6rem;
+    margin: 0 1rem;
+}
+.li1 {
+    list-style: none;
+    float: left;
+    margin: 0px 16px;
+    line-height: 60px;
+    color: grey;
+}
+.li2 {
+    list-style: none;
+    margin: 0px 16px;
+    line-height: 60px;
+    color: grey;
+}
+.ul2 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.none {
+    list-style: none;    
+    /* padding-left: 0; */
+    
+    .div-lesson-div-1 {
+        height: 60px;
+        background-color: #e0d666;
+    }
+    
+    
+    .div-lesson-div-2 {
+        width: 300px;
+        height: 60px;
+        background-color: #e0d666;
+    }
+    
+    .div-logo3{
+        line-height: 60px; 
+    }
+    
+    .div-logo4{
+        line-height: 60px;
+        padding: 0 0 0 16px; 
+    }
+    
+    .div-logo5{
+        line-height: 60px;
+        text-align: center;
+        margin: 16px 0;
+    }
+}
+
+.div-lesson2-div-1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.div-lesson2-div-2 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.div-lesson2-div-3 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.div-lesson2-2{
+    margin: 0;
+}
+
+
+.div-lesson3-div-1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.div-lesson3-div-2 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.div-lesson3-div-3 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.div-lesson2-1{
+    /* float: left; */
+}
+
+.flex {
+    padding: 16px 0;
+    clear: both;
+    display: flex;
+}
+
+.card {
+    width: 240px;
+    height: 320px;
+    border: 1px black solid;    
+}
+
+.img {
+    width: 240px;
+    height: 160px;
+}
+.card2{
+    width: 240px;
+    height: 160px;
+    box-sizing: border-box;
+}
+
+.img2 {
+    width: 100%;
+}
+
+.comment {
+   width: 240px;
+   height: 160px;
+   background-color: #f9f9fa;
+   font-size: 13px;
+   font-weight: 100;
+   font-family: serif;
+   line-height: 20px;
+}
+
+.comment-box-sizing {
+   width: 240px;
+   height: 160px;
+   padding: 16px;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.ec-contents {
+    width: 100%;
+    display: flex;
+    margin: 16px 0;
+    flex-wrap: wrap;
+}
+
+.card3{
+    width: 165px;
+    height: 165px;
+    box-sizing: border-box;
+    
+}
+
+.card-box {
+    width: 165px;
+    height: 250px;
+    border: 0 black solid;
+    margin: 16px;
+}
+
+.image-explanation-sizeing {
+    width: 100%;
+    margin: 0;
+
+}
+.ul3 {
+    padding: 0;
+    margin: 0;
+}
+
+.li3 {
+    list-style: none;
+    font-size: 12px;
+    margin: 4px;
+}
+
+.price {
+    font-weight: bold;
+    color: red;
+}
+
+.time-sale {
+    background-color:#D56565;
+    font-size: 10px;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+}
+
+.ec-contents2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin: 16px 0;
+    flex-wrap: wrap;
+}
+
+.card-box2 {
+    width: 165px;
+    height: 165px;
+    margin: 16px;
+}
+
+.image-explanation-sizing2 {
+    width: 165px;
+    height: 75px;
+    margin: 0;
+}
+
+.img3 {
+    width: 165px;
+    height: 165px;
+}
+
+.img3-img{
+    width: 100%;
+    height: 100%;
+}
+
+.goods-info{
+    font-size: 12px;
+    margin: 4px;
+}
+
+.goods-price {
+    font-size: 13px;
+    color: red;
+    font-weight: 700;
+    margin: 4px;
+}
+
+.goods-timesale {
+    font-size: 10px;
+    background-color: #D56565;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    width: 70px;
+    margin: 4px;
+}
+
+.layout_lesson1 {
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.layout_lesson1-left {
+    height: 48px;
+    width: 128px;
+    background-color: brown;
+}
+
+.layout_lesson1-right {
+    height: 48px;
+    width: 512px;
+    background-color: gray;
+}
+
+.layout_lesson1-right-ul {
+    height: 48px;
+    width: 512px;
+    display: flex;
+    margin: 0;
+    padding: 6px;
+    justify-content: space-evenly
+}
+
+.layout_lesson1-right-li {
+    list-style: none;
+    background-color: white;
+    border-radius: 50px;
+    height: 36px;
+    width: 100px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.layout2-contener {
+    margin: 20px 0;
+    border: dotted;
+    height: 500px;
+}
+
+.layout2-header {
+    width: 100%;
+    height: 10%;
+    background-color: gray;
+}
+
+.layout2-main-contener {
+    display: flex;
+    width: 100%;
+    height: 80%;
+
+}
+
+.layout2-main-contener-wrapper {
+    width: 70%;
+    height: 100%;
+    background-color: lightgray;
+    padding: 16px;
+}
+
+.layout2-main-contener-side {
+    width: 30%;
+    height: 100%;
+    background-color: cornsilk;
+}
+
+.layout2-footer {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+
+.layout2-main-contener-header {
+    height: 10%;
+    width: 100%;
+    background-color: white;
+}
+
+.layout2-main-contener-left {
+    width: 100%;
+    height: 90%;
+    margin: 0 0 0 0;
+    padding: 0 0 16px 0;
+    display: flex;
+}
+
+.layout2-main-contener-main {
+    width: 100%;
+    height: 100%;
+    margin: 16px 0 0 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.layout2-main-contener-main1 {
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+.layout2-main-contener-main2 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 16px 0 0 16px;
+}
