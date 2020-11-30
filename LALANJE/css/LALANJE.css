@@ -70,3 +70,65 @@ i {
     padding: 3px 35px;
     font-size: 10px;
     margin: 15px;
+}
+
+.top-comment h1{
+    font-size: 32px;
+    font-weight: 200;
+    margin: 3rem 3rem 0 3rem;
+    text-align: center;
+}
+
+.top-comment p{
+    font-size: 14px;
+    padding: 2rem 3rem 1rem 3rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.welcome-img {
+    padding:1rem;
+    position: relative;
+}
+
+.welcome-img img {
+    width: 100%;
+}
+
+.welcome-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 24px;
+    line-height: 2;
+    color: black;
+}
+
+.welcome-text p{
+    font-size: 10px;
+}
+
+.click2 {
+    border: 1px black solid;
+    padding: 3px 35px;
+    font-size: 10px;
+    margin: 15px;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 100;
+    border-bottom: solid 1px black;
+    margin: 1.5rem 0 3.5rem 0;
+    text-align: 1.5;
+    padding: 10px;
+}
+
+.concept-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
