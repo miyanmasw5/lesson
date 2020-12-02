@@ -91,7 +91,9 @@ i {
     position: relative;
 }
 
-.welcome-img img {
+.welcome-img img,
+.Service img,
+.useful img {
     width: 100%;
 }
 
@@ -118,7 +120,9 @@ i {
     margin: 15px;
 }
 
-h3 {
+h3,
+h4,
+h5 {
     display: inline-block;
     font-size: 32px;
     font-weight: 100;
@@ -128,7 +132,38 @@ h3 {
     padding: 10px;
 }
 
-.concept-text {
+.concept-text,
+.specialty,
+.useful {
     font-size: 16px;
     line-height: 1.5;
+}
+
+.member,.useful-i{
+    font-size: 25px;
+}
+
+.concept-text p {
+    margin: 0 0 26px 0;
+}
+
+.Specialty img {
+    width: 100%;
+}
+
+.fa-home,
+.fa-bookmark {
+    margin-top: 32px;
+}
+
+.fa-bookmark {
+    font-size: 50px;
+}
+
+.useful img {
+    margin: 30px 0 30px 0;
+}
+
+.useful p {
+    margin: 0 0 30px 0 ;
 }
