@@ -4,6 +4,7 @@ div {
 
 .container {
     width: 100%;
+    padding:0 16px;
 }
 
 body {
@@ -87,7 +88,6 @@ i {
 }
 
 .welcome-img {
-    padding:1rem;
     position: relative;
 }
 
@@ -147,6 +147,19 @@ h5 {
     margin: 0 0 26px 0;
 }
 
+.concept-text-img {
+    width: 100%;
+    object-fit: cover;
+    padding:16px 0;
+    overflow: hidden;
+}
+
+
+.concept-text-img img {
+    width:  100%;
+    transform:scale(1.2,1.2);
+}
+
 .Specialty img {
     width: 100%;
 }
@@ -160,17 +173,27 @@ h5 {
     font-size: 50px;
 }
 
-.useful img {
+.useful {
     margin: 30px 0 30px 0;
 }
 
+.useful-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.useful-img img {
+    width: 100%;
+    margin: 0 0 60px 0;
+    transform:scale(1.2,1.2);
+}
+
 .useful p {
-    margin: 0 0 30px 0 ;
+    margin: 0 0 30px 0;
 }
 
 .about-us {
     background-color: lightgray;
-    margin: 0 20px;
     padding: 15px 0 0 0;
 }
 
