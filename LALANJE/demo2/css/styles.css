@@ -52,7 +52,20 @@ h1 {
     color: white;
 }
 
-.top-img-text p{
+h2 {
+    font-weight: 100;
+    font-size: 50px;
+    margin: 30px;
+}
+
+.sub-text {
+    font-size:14px;
+    color:#858A8A;
+    margin: 30px 0;g
+    line-height: 2;
+}
+
+.top-img-text p,.salon-access {
     font-size: 16px;
     font-weight: 100;
 }
@@ -60,7 +73,7 @@ h1 {
 .brand-salon-store {
     display:flex;
     justify-content: space-between;
-    padding:50px 30px;
+    padding:30px 30px;
 }
 
 .brand-salon-store-logo {
@@ -70,4 +83,15 @@ h1 {
 
 .brand-salon-store-logo img {
     width: 100%;
+}
+
+.salon-access-hr {
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.3;
+}
+
+.sub2 {
+    line-height: 1.5;
+    margin:20px;
 }
