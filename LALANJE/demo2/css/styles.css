@@ -148,6 +148,7 @@ table {
 }
 
 .td-row {
+    width: 50%;
     border: solid 1px white;
     margin: 0 auto;
     font-size: 12px;
@@ -155,21 +156,33 @@ table {
     padding: 12px;
 }
 
-i {
+.fa-facebook-f,
+.fa-instagram {
     opacity: 0.5;
-    display: block;
     font-size: 30px;
 }
 
 .tr-top {
     border: non;
-    display: flex;
-    padding: 0 0 20px 0;
+    width: 100%;
 }
 
-.sns-icon {
-    margin: 0 auto;
-    font-size: 30px;
-    opacity: 0.5;
-    padding: 0 0 20px 0;
+.fb-ig {
+    width: 30px;
+    height: 30px;
+}
+
+.shopping {
+    width: 300px;
+    height:40px;
+    color:gray;
+    font-weight:700;
+    border:solid 1px #858A85;
+    margin:20px auto 30px auto;
+    line-height: 40px;
+}
+
+.fa-shopping-cart {
+    font-size:15px;
+    margin: 10px;
 }
