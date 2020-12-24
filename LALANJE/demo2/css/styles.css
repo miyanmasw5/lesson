@@ -4,6 +4,17 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color:#007bff;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:#007bff;
+}
+
 img {
     width: 100%;
 }
@@ -97,30 +108,27 @@ h2 {
 }
 
 .slide-img {    
+    width: 100%;
     position: relative;
-    margin: 0 0 50px 0;
 }
 
-.slide-img-button-left {
-    color: white;
-    opacity: 0.5;
-    width: 50px;
+.slide-img-button {
+    width: 100%;
     height: 50px;
-    font-size: 50px;
-    position: absolute;
-    top: 40%;
-    right: 84%;
-    transform: translate(-50%, 0)
-}
-
-.slide-img-button-right {
+    display:flex;
+    justify-content: space-between;
     color: white;
     opacity: 0.5;
     font-size: 50px;
     position: absolute;
-    top: 40%;
-    left: 96%;
-    transform: translate(-50%, 0)
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+.slide-img-button p {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 50px;
 }
 
 .facebook {
@@ -138,7 +146,6 @@ h2 {
 
 .menu-container {
     width: 100%;
-    height: 500px;
     background-color: lightgray;
     padding: 20px 0;
 }
@@ -185,4 +192,29 @@ table {
 .fa-shopping-cart {
     font-size:15px;
     margin: 10px;
+}
+
+.sitemap-privacy-policy {
+    font-size:12px;
+}
+
+.privacy-policy-note {
+    margin:20px 20px 0px 20px;
+    font-size: 12px;
+    color: #858a85;
+}
+
+.footer {
+    background-color:;
+
+}
+.footer-copyright {
+    height: 30px;
+    background-color: #393c3c;
+}
+
+.footer-copyright p{
+    font-size:12px;
+    padding:10px;
+    color:whitesmoke;
 }
